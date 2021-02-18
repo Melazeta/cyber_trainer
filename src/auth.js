@@ -54,7 +54,8 @@ export const backendPath = (path="/") => {
     let address = "danimz.pythonanywhere.com";
     let port = "80";
 
-    return proto + "://" + address + ":" + port + path;
+    // return proto + "://" + address + ":" + port + path;
+    return proto + "://" + address + path;
 }
 
 export const setCaseData = (c=null) => {
