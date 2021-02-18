@@ -1,0 +1,14 @@
+.tool-image {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tool-card {
+    opacity: 0.85;
+}
+
+.tool-card:hover {
+    opacity: 1;
+}

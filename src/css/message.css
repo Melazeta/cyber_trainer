@@ -1,0 +1,15 @@
+.ai-message.swal-modal {
+    background-image: -webkit-radial-gradient(top, #000005, #353535);
+    background-color: rgba(20, 20, 48, 0.9);
+    border: 1px solid #3CAEA3;
+}
+
+.swal-button {
+    font-family: "Polaris";
+    color: white;
+    background-color: #3CAEA3;
+}
+
+.back-progress.swal-modal {
+    background-color: rgba(0, 0, 15, 0);
+}

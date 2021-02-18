@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Polaris";
+    src:
+        local("Polaris"),
+        url(../Polaris.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "ACE";
+    src:
+        local("ACE"),
+        url(../ace_futurism.otf) format('opentype');
+}
+
+.polaris {
+    font-family: "Polaris", sans-serif;
+}
+
+.polaris-sm {
+    font-size: small;
+    font-family: "Polaris", sans-serif;
+}
+
+.polaris-xsm {
+    font-size: x-small;
+    font-family: "Polaris", sans-serif;
+}
+
+.ace {
+    font-size: x-large;
+    font-family: "ACE", sans-serif;
+}
+
+
+.ace-sm {
+    font-family: "ACE", sans-serif;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
