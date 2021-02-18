@@ -50,9 +50,9 @@ export const requestConfig = () => {
 
 // Build backend path
 export const backendPath = (path="/") => {
-    let proto = "http";
-    let address = "127.0.0.1";
-    let port = "8000";
+    let proto = "https";
+    let address = "danimz.pythonanywhere.com";
+    let port = "80";
 
     return proto + "://" + address + ":" + port + path;
 }
